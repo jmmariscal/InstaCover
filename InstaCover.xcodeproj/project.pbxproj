@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0AD5561EA5BE54000CE9D1 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AD5551EA5BE54000CE9D1 /* HomeController.swift */; };
+		AF0AD5581EA5C019000CE9D1 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AD5571EA5C019000CE9D1 /* HomePostCell.swift */; };
+		AF1B57791E9C834B000D8F55 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B57781E9C834B000D8F55 /* MainTabBarController.swift */; };
+		AF1B577B1E9C8503000D8F55 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B577A1E9C8503000D8F55 /* UserProfileController.swift */; };
+		AF220CB91EA07259009A1AEC /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CB81EA07259009A1AEC /* PhotoSelectorController.swift */; };
+		AF220CBB1EA14DFD009A1AEC /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CBA1EA14DFD009A1AEC /* PhotoSelectorCell.swift */; };
+		AF220CBD1EA1CA59009A1AEC /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CBC1EA1CA59009A1AEC /* PhotoSelectorHeader.swift */; };
+		AF220CBF1EA1DB6F009A1AEC /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CBE1EA1DB6F009A1AEC /* SharePhotoController.swift */; };
+		AF220CC21EA291C1009A1AEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CC11EA291C1009A1AEC /* Post.swift */; };
+		AF220CC41EA293C1009A1AEC /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CC31EA293C1009A1AEC /* UserProfilePhotoCell.swift */; };
+		AF220CC61EA2982E009A1AEC /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF220CC51EA2982E009A1AEC /* CustomImageView.swift */; };
+		AF2664A41E9D7A48008D73EF /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2664A31E9D7A48008D73EF /* UserProfileHeader.swift */; };
+		AF2664A71E9DADAE008D73EF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2664A61E9DADAE008D73EF /* LoginController.swift */; };
+		AF2958B31EA863580098BEF1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2958B21EA863580098BEF1 /* User.swift */; };
+		AF65B7FF1E904D68004D30B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B7FE1E904D68004D30B9 /* AppDelegate.swift */; };
+		AF65B8011E904D68004D30B9 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B8001E904D68004D30B9 /* SignUpController.swift */; };
+		AF65B8041E904D68004D30B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65B8021E904D68004D30B9 /* Main.storyboard */; };
+		AF65B8061E904D68004D30B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF65B8051E904D68004D30B9 /* Assets.xcassets */; };
+		AF65B8091E904D68004D30B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65B8071E904D68004D30B9 /* LaunchScreen.storyboard */; };
+		AF65B8121E91C08E004D30B9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B8111E91C08E004D30B9 /* Extensions.swift */; };
+		AF65B8141E9499B9004D30B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF65B8131E9499B9004D30B9 /* GoogleService-Info.plist */; };
+		B4AB912E2644BC8DD8CE305F /* Pods_InstaCover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B19516B5F75A80A94C5001 /* Pods_InstaCover.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7711633A5E9D8190792B6F14 /* Pods-InstaCover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCover.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCover/Pods-InstaCover.release.xcconfig"; sourceTree = "<group>"; };
+		821B1EC16B4101435E2ADA0B /* Pods-InstaCover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCover/Pods-InstaCover.debug.xcconfig"; sourceTree = "<group>"; };
+		98B19516B5F75A80A94C5001 /* Pods_InstaCover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0AD5551EA5BE54000CE9D1 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		AF0AD5571EA5C019000CE9D1 /* HomePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
+		AF1B57781E9C834B000D8F55 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AF1B577A1E9C8503000D8F55 /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		AF220CB81EA07259009A1AEC /* PhotoSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
+		AF220CBA1EA14DFD009A1AEC /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		AF220CBC1EA1CA59009A1AEC /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		AF220CBE1EA1DB6F009A1AEC /* SharePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
+		AF220CC11EA291C1009A1AEC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AF220CC31EA293C1009A1AEC /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
+		AF220CC51EA2982E009A1AEC /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		AF2664A31E9D7A48008D73EF /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		AF2664A61E9DADAE008D73EF /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		AF2958B21EA863580098BEF1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AF65B7FB1E904D68004D30B9 /* InstaCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF65B7FE1E904D68004D30B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF65B8001E904D68004D30B9 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		AF65B8031E904D68004D30B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF65B8051E904D68004D30B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF65B8081E904D68004D30B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF65B80A1E904D68004D30B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF65B8111E91C08E004D30B9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF65B8131E9499B9004D30B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF65B7F81E904D60004D30B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AB912E2644BC8DD8CE305F /* Pods_InstaCover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1787E63683E317B806292BD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				821B1EC16B4101435E2ADA0B /* Pods-InstaCover.debug.xcconfig */,
+				7711633A5E9D8190792B6F14 /* Pods-InstaCover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DFD443BFC1DE0CCF6A5777F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98B19516B5F75A80A94C5001 /* Pods_InstaCover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0AD5541EA5BE45000CE9D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AD5551EA5BE54000CE9D1 /* HomeController.swift */,
+				AF0AD5571EA5C019000CE9D1 /* HomePostCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AF220CB71EA07247009A1AEC /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				AF220CB81EA07259009A1AEC /* PhotoSelectorController.swift */,
+				AF220CBA1EA14DFD009A1AEC /* PhotoSelectorCell.swift */,
+				AF220CBC1EA1CA59009A1AEC /* PhotoSelectorHeader.swift */,
+				AF220CBE1EA1DB6F009A1AEC /* SharePhotoController.swift */,
+			);
+			name = AddPhoto;
+			sourceTree = "<group>";
+		};
+		AF220CC01EA291B2009A1AEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF220CC11EA291C1009A1AEC /* Post.swift */,
+				AF2958B21EA863580098BEF1 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AF2664A21E9D7A36008D73EF /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AF2664A31E9D7A48008D73EF /* UserProfileHeader.swift */,
+				AF1B577A1E9C8503000D8F55 /* UserProfileController.swift */,
+				AF220CC31EA293C1009A1AEC /* UserProfilePhotoCell.swift */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		AF2664A51E9DAD9C008D73EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF2664A61E9DADAE008D73EF /* LoginController.swift */,
+				AF65B8001E904D68004D30B9 /* SignUpController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AF65B7F21E904D60004D30B9 = {
+			isa = PBXGroup;
+			children = (
+				AF65B7FD1E904D68004D30B9 /* InstaCover */,
+				AF65B7FC1E904D68004D30B9 /* Products */,
+				1787E63683E317B806292BD1 /* Pods */,
+				6DFD443BFC1DE0CCF6A5777F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF65B7FC1E904D68004D30B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF65B7FB1E904D68004D30B9 /* InstaCover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF65B7FD1E904D68004D30B9 /* InstaCover */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AD5541EA5BE45000CE9D1 /* Home */,
+				AF220CC01EA291B2009A1AEC /* Models */,
+				AF220CB71EA07247009A1AEC /* AddPhoto */,
+				AF2664A51E9DAD9C008D73EF /* Login */,
+				AF2664A21E9D7A36008D73EF /* UserProfile */,
+				AF65B8101E91C074004D30B9 /* Utils */,
+				AF65B7FE1E904D68004D30B9 /* AppDelegate.swift */,
+				AF1B57781E9C834B000D8F55 /* MainTabBarController.swift */,
+				AF65B8021E904D68004D30B9 /* Main.storyboard */,
+				AF65B8051E904D68004D30B9 /* Assets.xcassets */,
+				AF65B8071E904D68004D30B9 /* LaunchScreen.storyboard */,
+				AF65B8131E9499B9004D30B9 /* GoogleService-Info.plist */,
+				AF65B80A1E904D68004D30B9 /* Info.plist */,
+			);
+			path = InstaCover;
+			sourceTree = "<group>";
+		};
+		AF65B8101E91C074004D30B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF65B8111E91C08E004D30B9 /* Extensions.swift */,
+				AF220CC51EA2982E009A1AEC /* CustomImageView.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF65B7FA1E904D60004D30B9 /* InstaCover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF65B80D1E904D68004D30B9 /* Build configuration list for PBXNativeTarget "InstaCover" */;
+			buildPhases = (
+				10D2E95FBC57481E4710AD9D /* [CP] Check Pods Manifest.lock */,
+				AF65B7F71E904D60004D30B9 /* Sources */,
+				AF65B7F81E904D60004D30B9 /* Frameworks */,
+				AF65B7F91E904D60004D30B9 /* Resources */,
+				E311A8BA057D73E4A7A70A7D /* [CP] Embed Pods Frameworks */,
+				06284B44024D10C91AAF6E1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaCover;
+			productName = InstaCover;
+			productReference = AF65B7FB1E904D68004D30B9 /* InstaCover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF65B7F31E904D60004D30B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mariscal Development";
+				TargetAttributes = {
+					AF65B7FA1E904D60004D30B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 37Y3Y57488;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF65B7F61E904D60004D30B9 /* Build configuration list for PBXProject "InstaCover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF65B7F21E904D60004D30B9;
+			productRefGroup = AF65B7FC1E904D68004D30B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF65B7FA1E904D60004D30B9 /* InstaCover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF65B7F91E904D60004D30B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF65B8141E9499B9004D30B9 /* GoogleService-Info.plist in Resources */,
+				AF65B8091E904D68004D30B9 /* LaunchScreen.storyboard in Resources */,
+				AF65B8061E904D68004D30B9 /* Assets.xcassets in Resources */,
+				AF65B8041E904D68004D30B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06284B44024D10C91AAF6E1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCover/Pods-InstaCover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10D2E95FBC57481E4710AD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E311A8BA057D73E4A7A70A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCover/Pods-InstaCover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF65B7F71E904D60004D30B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF220CBF1EA1DB6F009A1AEC /* SharePhotoController.swift in Sources */,
+				AF65B8011E904D68004D30B9 /* SignUpController.swift in Sources */,
+				AF220CBB1EA14DFD009A1AEC /* PhotoSelectorCell.swift in Sources */,
+				AF220CC61EA2982E009A1AEC /* CustomImageView.swift in Sources */,
+				AF220CC21EA291C1009A1AEC /* Post.swift in Sources */,
+				AF65B8121E91C08E004D30B9 /* Extensions.swift in Sources */,
+				AF220CC41EA293C1009A1AEC /* UserProfilePhotoCell.swift in Sources */,
+				AF2958B31EA863580098BEF1 /* User.swift in Sources */,
+				AF1B57791E9C834B000D8F55 /* MainTabBarController.swift in Sources */,
+				AF2664A41E9D7A48008D73EF /* UserProfileHeader.swift in Sources */,
+				AF1B577B1E9C8503000D8F55 /* UserProfileController.swift in Sources */,
+				AF65B7FF1E904D68004D30B9 /* AppDelegate.swift in Sources */,
+				AF2664A71E9DADAE008D73EF /* LoginController.swift in Sources */,
+				AF0AD5581EA5C019000CE9D1 /* HomePostCell.swift in Sources */,
+				AF220CBD1EA1CA59009A1AEC /* PhotoSelectorHeader.swift in Sources */,
+				AF220CB91EA07259009A1AEC /* PhotoSelectorController.swift in Sources */,
+				AF0AD5561EA5BE54000CE9D1 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF65B8021E904D68004D30B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF65B8031E904D68004D30B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF65B8071E904D68004D30B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF65B8081E904D68004D30B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF65B80B1E904D68004D30B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF65B80C1E904D68004D30B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF65B80E1E904D68004D30B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821B1EC16B4101435E2ADA0B /* Pods-InstaCover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37Y3Y57488;
+				INFOPLIST_FILE = InstaCover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariscalDevelopment.InstaCover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF65B80F1E904D68004D30B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7711633A5E9D8190792B6F14 /* Pods-InstaCover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37Y3Y57488;
+				INFOPLIST_FILE = InstaCover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariscalDevelopment.InstaCover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF65B7F61E904D60004D30B9 /* Build configuration list for PBXProject "InstaCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF65B80B1E904D68004D30B9 /* Debug */,
+				AF65B80C1E904D68004D30B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF65B80D1E904D68004D30B9 /* Build configuration list for PBXNativeTarget "InstaCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF65B80E1E904D68004D30B9 /* Debug */,
+				AF65B80F1E904D68004D30B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF65B7F31E904D60004D30B9 /* Project object */;
+}

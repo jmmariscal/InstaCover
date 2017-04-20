@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>547681050672-pf1uhm1o6s7aj49al0c5p7s512l97vbi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.547681050672-pf1uhm1o6s7aj49al0c5p7s512l97vbi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVXik6Ej2Rkt3yPe7MyNDVHsn45-jTTiQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>547681050672</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MariscalDevelopment.InstaCover</string>
+	<key>PROJECT_ID</key>
+	<string>instacover-63226</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instacover-63226.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:547681050672:ios:43290e5db7c015a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://instacover-63226.firebaseio.com</string>
+</dict>
+</plist>

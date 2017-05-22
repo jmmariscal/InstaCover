@@ -33,6 +33,8 @@
 		AF65B8141E9499B9004D30B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF65B8131E9499B9004D30B9 /* GoogleService-Info.plist */; };
 		AF69502C1EC12DD500ADD072 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF69502B1EC12DD500ADD072 /* UserSearchCell.swift */; };
 		AF937D2E1ED37F2500286184 /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF937D2D1ED37F2500286184 /* PreviewPhotoContainerView.swift */; };
+		AF937D321ED3A1F800286184 /* CustomAnimationPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF937D311ED3A1F800286184 /* CustomAnimationPresentor.swift */; };
+		AF937D341ED3A59F00286184 /* CustomAnimationDismiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF937D331ED3A59F00286184 /* CustomAnimationDismiser.swift */; };
 		B4AB912E2644BC8DD8CE305F /* Pods_InstaCover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B19516B5F75A80A94C5001 /* Pods_InstaCover.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		AF65B8131E9499B9004D30B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF69502B1EC12DD500ADD072 /* UserSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		AF937D2D1ED37F2500286184 /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
+		AF937D311ED3A1F800286184 /* CustomAnimationPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresentor.swift; sourceTree = "<group>"; };
+		AF937D331ED3A59F00286184 /* CustomAnimationDismiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismiser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 			children = (
 				AF5AE0EA1ECD42770058759D /* CameraController.swift */,
 				AF937D2D1ED37F2500286184 /* PreviewPhotoContainerView.swift */,
+				AF937D311ED3A1F800286184 /* CustomAnimationPresentor.swift */,
+				AF937D331ED3A59F00286184 /* CustomAnimationDismiser.swift */,
 			);
 			name = Camera;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 				AF220CC21EA291C1009A1AEC /* Post.swift in Sources */,
 				AF24DF981EA9980400DC6438 /* UserSearchController.swift in Sources */,
 				AF65B8121E91C08E004D30B9 /* Extensions.swift in Sources */,
+				AF937D321ED3A1F800286184 /* CustomAnimationPresentor.swift in Sources */,
 				AF5AE0EB1ECD42770058759D /* CameraController.swift in Sources */,
 				AF220CC41EA293C1009A1AEC /* UserProfilePhotoCell.swift in Sources */,
 				AF2958B31EA863580098BEF1 /* User.swift in Sources */,
@@ -358,6 +365,7 @@
 				AF65B7FF1E904D68004D30B9 /* AppDelegate.swift in Sources */,
 				AF937D2E1ED37F2500286184 /* PreviewPhotoContainerView.swift in Sources */,
 				AF2664A71E9DADAE008D73EF /* LoginController.swift in Sources */,
+				AF937D341ED3A59F00286184 /* CustomAnimationDismiser.swift in Sources */,
 				AF0AD5581EA5C019000CE9D1 /* HomePostCell.swift in Sources */,
 				AF220CBD1EA1CA59009A1AEC /* PhotoSelectorHeader.swift in Sources */,
 				AF220CB91EA07259009A1AEC /* PhotoSelectorController.swift in Sources */,

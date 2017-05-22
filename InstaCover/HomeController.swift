@@ -16,14 +16,60 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(handleUpdateFeed), name: SharePhotoController.updateFeedNotificationName, object: nil)
+        
         collectionView?.backgroundColor = .white
         
         collectionView?.register(HomePostCell.self, forCellWithReuseIdentifier: cellId)
         
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(handleRefresh), for: .valueChanged)
+        
+        collectionView?.refreshControl = refreshControl
+        
         setupNavigationItem()
         
-        fetchPosts()
+        fetchAllPosts()
+        
+        
     }
+    
+    func handleUpdateFeed() {
+        handleRefresh()
+    }
+    
+    func handleRefresh() {
+        print("Handling refresh...")
+        posts.removeAll()
+        fetchAllPosts()
+    }
+    
+    fileprivate func fetchAllPosts() {
+        fetchPosts()
+        fetchFollowingUserIds()
+    }
+    
+    fileprivate func fetchFollowingUserIds() {
+        guard let uid = FIRAuth.auth()?.currentUser?.uid else { return }
+        
+        FIRDatabase.database().reference().child("following").child(uid).observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            guard let userIdsDictionary = snapshot.value as? [String:Any] else { return }
+            
+            userIdsDictionary.forEach({ (key, value) in
+                FIRDatabase.fetchUserWithUID(uid: key, completion: { (user) in
+                    self.fetchPostsWithUser(user: user)
+                })
+            })
+            
+        }) { (err) in
+            print("Failed to fetch following user ids:", err)
+        }
+    }
+    
+    //iOS9
+    //let refreshControl = UIRefreshControl()
     
     var posts = [Post]()
     
@@ -40,7 +86,8 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         
         let ref = FIRDatabase.database().reference().child("posts").child(user.uid)
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
-            //print(snapshot.value)
+            
+            self.collectionView?.refreshControl?.endRefreshing()
         
             guard let dictionaries = snapshot.value as? [String: Any] else { return }
         
@@ -50,6 +97,10 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
                 
                 let post = Post(user: user, dictionary: dictionary)
                 self.posts.append(post)
+            })
+            
+            self.posts.sort(by: { (p1, p2) -> Bool in
+                return p1.creationDate.compare(p2.creationDate) == .orderedDescending
             })
             
             self.collectionView?.reloadData()
@@ -64,6 +115,15 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
 
     func setupNavigationItem() {
         navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "logo2"))
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "camera3").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleCamera))
+    }
+    
+    func handleCamera() {
+        print("Showing camera..")
+        
+        let cameraController = CameraController()
+        present(cameraController, animated: true, completion: nil)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
